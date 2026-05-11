@@ -1,8 +1,6 @@
 # ZAP
 
-**ZAP** (Zoned Architecture and Parallelizable compiler) is a research prototype for compiling quantum circuits onto a **field-programmable neutral-atom array** model: storage zones, entanglement zones, AOD-mediated movement, and staged Rydberg-style two-qubit execution.
-
-Reference: [ZAP: Zoned Architecture and Parallelizable Compiler for Field Programmable Atom Array](https://arxiv.org/abs/2411.14037)
+**ZAP** (Zoned Architecture and Performant compiler) is a research prototype for compiling quantum circuits onto a **field-programmable neutral-atom array** model: storage zones, entanglement zones, AOD-mediated movement, and staged Rydberg-style two-qubit execution.
 
 ## Features
 
@@ -67,21 +65,21 @@ python run.py <setting_name> \
 
 ### Scheduling (`--scheduling_strategy`)
 
-| Value | Description |
-|--------|-------------|
+| Value           | Description                                                                              |
+| --------------- | ---------------------------------------------------------------------------------------- |
 | `asap_separate` | Schedule all two-qubit layers first (ASAP), then insert single-qubit gates between them. |
-| `asap_joint` | Single ASAP schedule over all gates in circuit order. |
+| `asap_joint`    | Single ASAP schedule over all gates in circuit order.                                    |
 
 ### Routing / idle policy (`--routing_strategy`)
 
 The placer uses this name to choose how **idle** qubits in the entanglement zone are handled during global two-qubit illumination:
 
-| Value | Description |
-|--------|-------------|
-| `baseline` | Compare estimated crosstalk vs. move+decoherence; pick the cheaper option (`lookahead`-style). |
-| `lookahead` | Same cost heuristic as `baseline`. |
-| `always_move` | Prefer moving idles to storage when possible. |
-| `always_stay` | Do not evict idles from the entanglement zone for this reason. |
+| Value         | Description                                                                                    |
+| ------------- | ---------------------------------------------------------------------------------------------- |
+| `baseline`    | Compare estimated crosstalk vs. move+decoherence; pick the cheaper option (`lookahead`-style). |
+| `lookahead`   | Same cost heuristic as `baseline`.                                                             |
+| `always_move` | Prefer moving idles to storage when possible.                                                  |
+| `always_stay` | Do not evict idles from the entanglement zone for this reason.                                 |
 
 Other routing labels accepted by the CLI may not be fully implemented in this tree; unsupported combinations can raise at runtime.
 
@@ -103,15 +101,15 @@ Example:
 }
 ```
 
-| Field | Meaning |
-|--------|---------|
-| `benchmark` | List of paths under `benchmark/` |
-| `architecture` | Filename under `architecture/` |
-| `simulation` | Run fidelity/duration simulation after routing |
-| `animation` | Write `results/<output_dir>/animations/<name>.mp4` |
-| `output_dir` | Subdirectory under `results/` |
+| Field                        | Meaning                                                              |
+| ---------------------------- | -------------------------------------------------------------------- |
+| `benchmark`                  | List of paths under `benchmark/`                                     |
+| `architecture`               | Filename under `architecture/`                                       |
+| `simulation`                 | Run fidelity/duration simulation after routing                       |
+| `animation`                  | Write `results/<output_dir>/animations/<name>.mp4`                   |
+| `output_dir`                 | Subdirectory under `results/`                                        |
 | `initial_mapping` (optional) | Explicit qubit index → site list; empty list means automatic mapping |
-| `routing_cfg` (optional) | Shallow merge into `architecture["routing"]` for one-off experiments |
+| `routing_cfg` (optional)     | Shallow merge into `architecture["routing"]` for one-off experiments |
 
 ## Architecture JSON (routing)
 
