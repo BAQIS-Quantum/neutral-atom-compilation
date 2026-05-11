@@ -1,0 +1,12 @@
+{
+  "benchmark": ["tqe/qft_n10.qasm"],
+  "type": "qasm",
+  "architecture": "default.json",
+  "routing_cfg": {
+    "parallel_priority_weight": 1000.0,
+    "initial_mapping_parallel_lookahead": 2
+  },
+  "simulation": true,
+  "animation": true,
+  "output_dir": "default"
+}

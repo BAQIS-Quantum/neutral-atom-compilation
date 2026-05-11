@@ -1,0 +1,17 @@
+[
+  {
+    "algorithm": "cat_n10",
+    "n_qubits": 10,
+    "stage": 19,
+    "n_1q_gate": 19,
+    "n_2q_gate": 9,
+    "compilation_time": 0.032,
+    "total_fidelity": 0.90071295,
+    "fidelity_1q_gate": 0.99431536,
+    "fidelity_2q_gate": 0.95588958,
+    "idle": 0.9975,
+    "transfer": 0.96462292,
+    "decoherence": 0.98488166,
+    "timestamp": "2025-07-15T13:04:28.305023"
+  }
+]

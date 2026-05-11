@@ -1,0 +1,19 @@
+{
+  "benchmark": [
+    "cat_n500",
+    "cat_n450",
+    "cat_n400",
+    "cat_n350",
+    "cat_n300",
+    "cat_n250",
+    "cat_n200",
+    "cat_n150",
+    "cat_n100",
+    "cat_n50",
+    "cat_n10"
+  ],
+  "type": "qasm",
+  "architecture": "default.json",
+  "simulation": true,
+  "animation": false
+}

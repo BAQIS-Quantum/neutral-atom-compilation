@@ -1,0 +1,49 @@
+[
+  {
+    "algorithm": "adder_n91",
+    "n_qubits": 91,
+    "stage": 489,
+    "n_1q_gate": 891,
+    "n_2q_gate": 650,
+    "compilation_time": 0.2944,
+    "total_fidelity": 1.42e-06,
+    "fidelity_1q_gate": 0.76541271,
+    "fidelity_2q_gate": 0.0384594,
+    "idle": 0.42482815,
+    "transfer": 0.12860293,
+    "decoherence": 0.00088311,
+    "timestamp": "2025-07-15T12:58:17.840820"
+  },
+  {
+    "algorithm": "adder_n91",
+    "n_qubits": 91,
+    "stage": 489,
+    "n_1q_gate": 891,
+    "n_2q_gate": 650,
+    "total_duration": 163025.663537,
+    "compilation_time": 1.6699,
+    "total_fidelity": 2.08e-06,
+    "fidelity_1q_gate": 0.76541271,
+    "fidelity_2q_gate": 0.0384594,
+    "fidelity_idle": 1,
+    "fidelity_handover": 0.08035822,
+    "fidelity_decoherence": 0.00087921,
+    "timestamp": "2026-04-04T10:25:46.466544"
+  },
+  {
+    "algorithm": "adder_n91",
+    "n_qubits": 91,
+    "stage": 489,
+    "n_1q_gate": 891,
+    "n_2q_gate": 650,
+    "total_duration": 96722.799322,
+    "compilation_time": 0.2781,
+    "total_fidelity": 4.243e-05,
+    "fidelity_1q_gate": 0.76541271,
+    "fidelity_2q_gate": 0.0384594,
+    "fidelity_idle": 0.34773279,
+    "fidelity_handover": 0.145444,
+    "fidelity_decoherence": 0.0284979,
+    "timestamp": "2026-04-07T10:57:00.149840"
+  }
+]

@@ -1,0 +1,5 @@
+qiskit
+qiskit_qasm3_import
+numpy
+tqdm
+matplotlib

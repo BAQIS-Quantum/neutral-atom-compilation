@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "ising_n26",
+    "n_qubits": 26,
+    "stage": 9,
+    "n_1q_gate": 88,
+    "n_2q_gate": 50,
+    "total_duration": 4187.168765,
+    "compilation_time": 0.0143,
+    "total_fidelity": 0.65442037,
+    "fidelity_1q_gate": 0.97394158,
+    "fidelity_2q_gate": 0.77831256,
+    "fidelity_idle": 1,
+    "fidelity_handover": 0.92215632,
+    "fidelity_decoherence": 0.93619285,
+    "timestamp": "2026-05-11T11:09:16.014772"
+  }
+]

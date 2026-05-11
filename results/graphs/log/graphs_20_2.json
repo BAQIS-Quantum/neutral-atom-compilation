@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "graphs_20_2",
+    "n_qubits": 20,
+    "stage": 12,
+    "n_1q_gate": 0,
+    "n_2q_gate": 30,
+    "total_duration": 6230.791703,
+    "compilation_time": 0.0266,
+    "total_fidelity": 0.68325466,
+    "fidelity_1q_gate": 1,
+    "fidelity_2q_gate": 0.86038419,
+    "fidelity_idle": 0.9826307,
+    "fidelity_handover": 0.8736569,
+    "fidelity_decoherence": 0.92503665,
+    "timestamp": "2026-05-11T11:13:43.622793"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "algorithm": "ising_n350",
+    "n_qubits": 350,
+    "stage": 9,
+    "n_1q_gate": 1222,
+    "n_2q_gate": 698,
+    "compilation_time": 0.7574,
+    "total_fidelity": 0.0,
+    "fidelity_1q_gate": 0.6930487,
+    "fidelity_2q_gate": 0.03023503,
+    "idle": 1,
+    "transfer": 0.3490548,
+    "decoherence": 4.7e-7,
+    "timestamp": "2025-07-15T13:04:41.056753"
+  }
+]

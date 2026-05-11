@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "multiplier_n15",
+    "n_qubits": 15,
+    "stage": 262,
+    "n_1q_gate": 268,
+    "n_2q_gate": 222,
+    "total_duration": 36689.889801,
+    "compilation_time": 0.1067,
+    "total_fidelity": 0.08251013,
+    "fidelity_1q_gate": 0.92273604,
+    "fidelity_2q_gate": 0.32864265,
+    "fidelity_idle": 0.74239599,
+    "fidelity_handover": 0.51204912,
+    "fidelity_decoherence": 0.71574548,
+    "timestamp": "2026-05-11T11:09:15.373341"
+  }
+]

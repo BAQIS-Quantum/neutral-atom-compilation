@@ -1,0 +1,17 @@
+[
+  {
+    "algorithm": "qft_n50",
+    "n_qubits": 50,
+    "stage": 385,
+    "n_1q_gate": 2370,
+    "n_2q_gate": 1531,
+    "compilation_time": 0.2738,
+    "total_fidelity": 1.03e-6,
+    "fidelity_1q_gate": 0.49110041,
+    "fidelity_2q_gate": 0.00046466,
+    "idle": 0.88678719,
+    "transfer": 0.15428795,
+    "decoherence": 0.03289287,
+    "timestamp": "2025-07-15T13:07:43.942385"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "benchmark": [
+    "bv_n500",
+    "bv_n450",
+    "bv_n400",
+    "bv_n350",
+    "bv_n300",
+    "bv_n250",
+    "bv_n200",
+    "bv_n150",
+    "bv_n100",
+    "bv_n50",
+    "bv_n10"
+  ],
+  "type": "qasm",
+  "architecture": "default.json",
+  "simulation": true,
+  "animation": false
+}

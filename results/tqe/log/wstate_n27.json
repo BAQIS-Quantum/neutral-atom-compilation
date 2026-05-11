@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "wstate_n27",
+    "n_qubits": 27,
+    "stage": 57,
+    "n_1q_gate": 105,
+    "n_2q_gate": 52,
+    "total_duration": 11878.607745,
+    "compilation_time": 0.1178,
+    "total_fidelity": 0.49168525,
+    "fidelity_1q_gate": 0.96898638,
+    "fidelity_2q_gate": 0.77054889,
+    "fidelity_idle": 0.99500625,
+    "fidelity_handover": 0.81049908,
+    "fidelity_decoherence": 0.8165654,
+    "timestamp": "2026-05-11T11:09:16.185554"
+  }
+]

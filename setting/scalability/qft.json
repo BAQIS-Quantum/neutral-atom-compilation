@@ -1,0 +1,20 @@
+{
+  "benchmark": [
+    "scalability/qft/qft_n10.qasm",
+    "scalability/qft/qft_n50.qasm",
+    "scalability/qft/qft_n100.qasm",
+    "scalability/qft/qft_n150.qasm",
+    "scalability/qft/qft_n200.qasm",
+    "scalability/qft/qft_n250.qasm",
+    "scalability/qft/qft_n300.qasm",
+    "scalability/qft/qft_n350.qasm",
+    "scalability/qft/qft_n400.qasm",
+    "scalability/qft/qft_n450.qasm",
+    "scalability/qft/qft_n500.qasm"
+  ],
+  "type": "qasm",
+  "architecture": "scale_to_500.json",
+  "simulation": true,
+  "animation": false,
+  "output_dir": "scalability/qft"
+}

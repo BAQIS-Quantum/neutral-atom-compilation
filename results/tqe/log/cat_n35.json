@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "cat_n35",
+    "n_qubits": 35,
+    "stage": 69,
+    "n_1q_gate": 69,
+    "n_2q_gate": 34,
+    "total_duration": 10095.591967,
+    "compilation_time": 0.0595,
+    "total_fidelity": 0.57419933,
+    "fidelity_1q_gate": 0.97950973,
+    "fidelity_2q_gate": 0.84330514,
+    "fidelity_idle": 1,
+    "fidelity_handover": 0.87278324,
+    "fidelity_decoherence": 0.79645783,
+    "timestamp": "2026-05-11T11:09:16.345654"
+  }
+]

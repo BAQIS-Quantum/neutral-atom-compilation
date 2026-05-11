@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "vqc_n15",
+    "n_qubits": 15,
+    "stage": 159,
+    "n_1q_gate": 102,
+    "n_2q_gate": 448,
+    "total_duration": 48984.352041,
+    "compilation_time": 0.0521,
+    "total_fidelity": 0.0167126,
+    "fidelity_1q_gate": 0.96985899,
+    "fidelity_2q_gate": 0.10586202,
+    "fidelity_idle": 0.7295011,
+    "fidelity_handover": 0.35045452,
+    "fidelity_decoherence": 0.63670416,
+    "timestamp": "2026-05-11T11:09:15.709624"
+  }
+]

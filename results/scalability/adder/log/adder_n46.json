@@ -1,0 +1,49 @@
+[
+  {
+    "algorithm": "adder_n46",
+    "n_qubits": 46,
+    "stage": 279,
+    "n_1q_gate": 446,
+    "n_2q_gate": 325,
+    "compilation_time": 0.1105,
+    "total_fidelity": 0.00747932,
+    "fidelity_1q_gate": 0.87474744,
+    "fidelity_2q_gate": 0.19611068,
+    "idle": 0.65015896,
+    "transfer": 0.36041096,
+    "decoherence": 0.18606332,
+    "timestamp": "2025-07-15T12:58:18.191047"
+  },
+  {
+    "algorithm": "adder_n46",
+    "n_qubits": 46,
+    "stage": 279,
+    "n_1q_gate": 446,
+    "n_2q_gate": 325,
+    "total_duration": 74874.50864,
+    "compilation_time": 0.6498,
+    "total_fidelity": 0.01035177,
+    "fidelity_1q_gate": 0.87474744,
+    "fidelity_2q_gate": 0.19611068,
+    "fidelity_idle": 1,
+    "fidelity_handover": 0.28347526,
+    "fidelity_decoherence": 0.2128706,
+    "timestamp": "2026-04-04T10:25:48.257018"
+  },
+  {
+    "algorithm": "adder_n46",
+    "n_qubits": 46,
+    "stage": 279,
+    "n_1q_gate": 446,
+    "n_2q_gate": 325,
+    "total_duration": 48026.421623,
+    "compilation_time": 0.1049,
+    "total_fidelity": 0.01681815,
+    "fidelity_1q_gate": 0.87474744,
+    "fidelity_2q_gate": 0.19611068,
+    "fidelity_idle": 0.5882145,
+    "fidelity_handover": 0.38424369,
+    "fidelity_decoherence": 0.43376241,
+    "timestamp": "2026-04-07T10:57:00.495743"
+  }
+]

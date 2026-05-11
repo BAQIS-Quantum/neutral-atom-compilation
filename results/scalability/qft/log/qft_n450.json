@@ -1,0 +1,32 @@
+[
+  {
+    "algorithm": "qft_n450",
+    "n_qubits": 450,
+    "stage": 3585,
+    "n_1q_gate": 26370,
+    "n_2q_gate": 17131,
+    "compilation_time": 32.7598,
+    "total_fidelity": 0.0,
+    "fidelity_1q_gate": 0.00036625,
+    "fidelity_2q_gate": 0.0,
+    "idle": 0.32582256,
+    "transfer": 0.0,
+    "decoherence": 0.0,
+    "timestamp": "2025-07-15T13:05:40.597873"
+  },
+  {
+    "algorithm": "qft_n450",
+    "n_qubits": 450,
+    "stage": 3585,
+    "n_1q_gate": 26370,
+    "n_2q_gate": 17131,
+    "compilation_time": 31.9391,
+    "total_fidelity": 0.0,
+    "fidelity_1q_gate": 0.00036625,
+    "fidelity_2q_gate": 0.0,
+    "idle": 0.32582256,
+    "transfer": 0.0,
+    "decoherence": 0.0,
+    "timestamp": "2025-07-22T12:01:41.913239"
+  }
+]

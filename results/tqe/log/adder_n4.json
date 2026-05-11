@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "adder_n4",
+    "n_qubits": 4,
+    "stage": 13,
+    "n_1q_gate": 21,
+    "n_2q_gate": 10,
+    "total_duration": 1387.351593,
+    "compilation_time": 0.0175,
+    "total_fidelity": 0.91446147,
+    "fidelity_1q_gate": 0.99371886,
+    "fidelity_2q_gate": 0.95111013,
+    "fidelity_idle": 1,
+    "fidelity_handover": 0.96946054,
+    "fidelity_decoherence": 0.99802388,
+    "timestamp": "2026-05-11T11:09:14.983352"
+  }
+]

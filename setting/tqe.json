@@ -1,0 +1,26 @@
+{
+  "benchmark": [
+    "tqe/adder_n4.qasm",
+    "tqe/qaoa_n6.qasm",
+    "tqe/qft_n10.qasm",
+    "tqe/sat_n11.qasm",
+    "tqe/bv_n14.qasm",
+    "tqe/multiplier_n15.qasm",
+    "tqe/qnn_n15.qasm",
+    "tqe/vqc_n15.qasm",
+    "tqe/qram_n20.qasm",
+    "tqe/knn_n25.qasm",
+    "tqe/ising_n26.qasm",
+    "tqe/wstate_n27.qasm",
+    "tqe/ghz_n30.qasm",
+    "tqe/cat_n35.qasm"
+  ],
+  "architecture": "default.json",
+  "routing_cfg": {
+    "parallel_priority_weight": 1000.0,
+    "initial_mapping_parallel_lookahead": 0
+  },
+  "simulation": true,
+  "animation": false,
+  "output_dir": "tqe"
+}

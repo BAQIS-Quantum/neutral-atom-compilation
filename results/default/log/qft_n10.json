@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "qft_n10",
+    "n_qubits": 10,
+    "stage": 69,
+    "n_1q_gate": 136,
+    "n_2q_gate": 90,
+    "total_duration": 7979.691779,
+    "compilation_time": 0.0306,
+    "total_fidelity": 0.50876659,
+    "fidelity_1q_gate": 0.96001524,
+    "fidelity_2q_gate": 0.63690883,
+    "fidelity_idle": 1,
+    "fidelity_handover": 0.86929734,
+    "fidelity_decoherence": 0.9571827,
+    "timestamp": "2026-05-11T11:09:35.022963"
+  }
+]

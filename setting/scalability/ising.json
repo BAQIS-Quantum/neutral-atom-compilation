@@ -1,0 +1,19 @@
+{
+  "benchmark": [
+    "ising_n500",
+    "ising_n450",
+    "ising_n400",
+    "ising_n350",
+    "ising_n300",
+    "ising_n250",
+    "ising_n200",
+    "ising_n150",
+    "ising_n100",
+    "ising_n50",
+    "ising_n10"
+  ],
+  "type": "qasm",
+  "architecture": "default.json",
+  "simulation": true,
+  "animation": false
+}

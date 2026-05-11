@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "qaoa_n6",
+    "n_qubits": 6,
+    "stage": 45,
+    "n_1q_gate": 78,
+    "n_2q_gate": 36,
+    "total_duration": 4723.089702,
+    "compilation_time": 0.0073,
+    "total_fidelity": 0.74726711,
+    "fidelity_1q_gate": 0.97686823,
+    "fidelity_2q_gate": 0.83489317,
+    "fidelity_idle": 1,
+    "fidelity_handover": 0.92863731,
+    "fidelity_decoherence": 0.98664938,
+    "timestamp": "2026-05-11T11:09:15.015737"
+  }
+]

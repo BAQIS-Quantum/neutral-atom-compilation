@@ -1,0 +1,24 @@
+{
+  "benchmark": [
+    "scalability/adder/adder_n496.qasm",
+    "scalability/adder/adder_n460.qasm",
+    "scalability/adder/adder_n433.qasm",
+    "scalability/adder/adder_n406.qasm",
+    "scalability/adder/adder_n361.qasm",
+    "scalability/adder/adder_n316.qasm",
+    "scalability/adder/adder_n271.qasm",
+    "scalability/adder/adder_n226.qasm",
+    "scalability/adder/adder_n181.qasm",
+    "scalability/adder/adder_n136.qasm",
+    "scalability/adder/adder_n118.qasm",
+    "scalability/adder/adder_n91.qasm",
+    "scalability/adder/adder_n64.qasm",
+    "scalability/adder/adder_n46.qasm",
+    "scalability/adder/adder_n28.qasm",
+    "scalability/adder/adder_n10.qasm"
+  ],
+  "architecture": "scale_to_500.json",
+  "simulation": true,
+  "animation": false,
+  "output_dir": "scalability/adder"
+}
