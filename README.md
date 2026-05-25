@@ -2,6 +2,8 @@
 
 **ZAP** (Zoned Architecture and Performant compiler) is a research prototype for compiling quantum circuits onto a **field-programmable neutral-atom array** model: storage zones, entanglement zones, AOD-mediated movement, and staged Rydberg-style two-qubit execution.
 
+[ZAP: Zoned Architecture and Performant Compiler for Field Programmable Atom Array](https://arxiv.org/abs/2411.14037)
+
 ## Features
 
 - **Scheduling**: ASAP schedules over a linearized gate list (OpenQASM 2/3 or JSON graph benchmarks).
