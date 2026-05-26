@@ -4,7 +4,7 @@
 
 [ZAP: Zoned Architecture and Performant Compiler for Field Programmable Atom Array](https://ieeexplore.ieee.org/document/11535023)
 
-Cite This: C. Huang et al., "ZAP: Zoned Architecture and Performant Compiler for Field Programmable Atom Array," in IEEE Transactions on Quantum Engineering, doi: 10.1109/TQE.2026.3696707. 
+Cite This: C. Huang et al., "ZAP: Zoned Architecture and Performant Compiler for Field Programmable Atom Array," IEEE Transactions on Quantum Engineering, doi: 10.1109/TQE.2026.3696707. 
 
 ## Features
 
